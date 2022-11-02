@@ -23,7 +23,12 @@
         "kind": "Date",
         "value": "2022-01-24T18:26:57.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/simple_workflow_tmpl"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -64,7 +69,12 @@
         "kind": "Date",
         "value": "2022-01-18T17:49:45.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/simple_workflow_tmpl"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -105,7 +115,12 @@
         "kind": "Date",
         "value": "2022-01-24T18:25:37.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/MTvC_app"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -187,7 +202,12 @@
         "kind": "Date",
         "value": "2022-01-19T13:29:15.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/PTK_QC_app"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -228,7 +248,12 @@
         "kind": "Date",
         "value": "2022-01-24T18:22:50.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/STK_QC_app"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -310,7 +335,12 @@
         "kind": "Date",
         "value": "2022-01-24T18:21:05.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/simple_workflow_tmpl"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -351,7 +381,12 @@
         "kind": "Date",
         "value": "2022-01-21T15:24:06.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/foldchange_app"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -392,7 +427,12 @@
         "kind": "Date",
         "value": "2022-01-21T15:26:07.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/logfoldchange_app"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -433,7 +473,12 @@
         "kind": "Date",
         "value": "2022-07-29T15:20:02.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/simple_workflow_template"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -474,7 +519,12 @@
         "kind": "Date",
         "value": "2022-07-29T08:28:52.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/simple_workflow_template"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -515,7 +565,12 @@
         "kind": "Date",
         "value": "2022-07-30T07:03:49.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/simple_workflow_template"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -556,7 +611,12 @@
         "kind": "Date",
         "value": "2022-01-24T18:27:55.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/ttest_app"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
@@ -597,7 +657,12 @@
         "kind": "Date",
         "value": "2022-01-19T13:27:27.000Z"
       },
-      "urls": [],
+      "urls": [
+        {
+          "kind": "Url",
+          "uri": "https://github.com/tercen/ttest_paired_app"
+        }
+      ],
       "tags": [],
       "meta": [],
       "url": {
