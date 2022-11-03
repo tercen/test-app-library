@@ -27,7 +27,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "f8a10d0f634bec18e16e16305e002f60"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/DRC_app"
@@ -73,7 +84,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "f8a10d0f634bec18e16e16305e002f60"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/ETS_app"
@@ -119,7 +141,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "4629c134b09c53160ea461e75fe41f6f"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/MTvC_app"
@@ -206,7 +239,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "46842dc092dac0594fe844174f745de3"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/QC_PTK_app"
@@ -252,7 +296,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "7f865df18753ebf56ca2bbafe1ef94cc"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/QC_STK_app"
@@ -339,7 +394,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "f8a10d0f634bec18e16e16305e002f60"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/UKA_app"
@@ -385,7 +451,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "33fb64086c3295748ed979a87b5ee00c"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/foldchange_app"
@@ -431,7 +508,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "35c33fa33c9e6aba0dce6483f5f6dabe"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/logfoldchange_app"
@@ -477,7 +565,13 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "f8a10d0f634bec18e16e16305e002f60"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/median_mad_app"
@@ -523,7 +617,13 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "f8a10d0f634bec18e16e16305e002f60"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/ratio_app"
@@ -569,7 +669,13 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "f8a10d0f634bec18e16e16305e002f60"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/scale_min_max_app"
@@ -615,7 +721,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "35c33fa33c9e6aba0dce6483f526958e"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/ttest_app"
@@ -661,7 +778,18 @@
       }
     ],
     "tags": [],
-    "meta": [],
+    "meta": [
+      {
+        "kind": "Pair",
+        "key": "workflow.app",
+        "value": ""
+      },
+      {
+        "kind": "Pair",
+        "key": "copyOf",
+        "value": "35c33fa33c9e6aba0dce6483f5a6925f"
+      }
+    ],
     "url": {
       "kind": "Url",
       "uri": "https://github.com/tercen/ttest_paired_app"
