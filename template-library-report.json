@@ -32,7 +32,13 @@
       "tags": [
         "flowjo"
       ],
-      "meta": [],
+      "meta": [
+        {
+          "kind": "Pair",
+          "key": "copyOf",
+          "value": "f8a10d0f634bec18e16e16305e002f60"
+        }
+      ],
       "url": {
         "kind": "Url",
         "uri": "https://github.com/tercen/FlowJo_advanced_cluster_explorer_template"
@@ -80,7 +86,13 @@
       "tags": [
         "flowjo"
       ],
-      "meta": [],
+      "meta": [
+        {
+          "kind": "Pair",
+          "key": "copyOf",
+          "value": "f8a10d0f634bec18e16e16305e002f60"
+        }
+      ],
       "url": {
         "kind": "Url",
         "uri": "https://github.com/tercen/FlowJo_basic_cluster_explorer_template"
@@ -244,7 +256,13 @@
       },
       "urls": [],
       "tags": [],
-      "meta": [],
+      "meta": [
+        {
+          "kind": "Pair",
+          "key": "copyOf",
+          "value": "f8a10d0f634bec18e16e16305e002f60"
+        }
+      ],
       "url": {
         "kind": "Url",
         "uri": "https://github.com/tercen/simple_workflow_template"
