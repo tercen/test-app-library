@@ -1,1 +1,52 @@
-{}
+{
+  "failed_documents": [],
+  "notest_documents": [],
+  "success_documents": [
+    {
+      "kind": "TableSchema",
+      "id": "",
+      "isDeleted": false,
+      "rev": "",
+      "description": "",
+      "name": "Crabs Data.csv",
+      "createdBy": "",
+      "acl": {
+        "kind": "Acl",
+        "owner": "",
+        "aces": []
+      },
+      "createdDate": {
+        "kind": "Date",
+        "value": "2022-10-05T15:38:06.000Z"
+      },
+      "lastModifiedDate": {
+        "kind": "Date",
+        "value": "2022-10-21T10:00:10.000Z"
+      },
+      "urls": [],
+      "tags": [],
+      "meta": [],
+      "url": {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/test_dataset"
+      },
+      "version": "0.0.1",
+      "authors": [],
+      "isPublic": false,
+      "projectId": "",
+      "folderId": "",
+      "nRows": 0,
+      "columns": [],
+      "dataDirectory": "",
+      "relation": {
+        "kind": "Relation",
+        "id": "cc2222bd-1595-43c2-8d5f-1405da92a208"
+      }
+    }
+  ],
+  "no_release_documents": [
+    "https://github.com/tercen/crabs_dataset",
+    "https://github.com/tercen/lipodomics_mass_spec_dataset",
+    "https://github.com/tercen/yoruba_dataset"
+  ]
+}
