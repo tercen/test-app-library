@@ -1,0 +1,4874 @@
+[
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Compute the Antibodies Bound per Cell value",
+    "name": "Antibodies Bound per Cell (ABC)",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-05-21T06:10:49.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-21T07:20:47.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/Antibodies_Bound_per_Cell_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/Antibodies_Bound_per_Cell_operator"
+    },
+    "version": "0.1.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Performs a Dose Response Curve fitting of the data",
+    "name": "DRC Fit",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-22T12:25:34.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-07T14:33:45.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/DRC_fit_operator"
+      }
+    ],
+    "tags": [
+      "DRC",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/DRC_fit_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Interquartile Range: Calculates whether the value of a cell falls within the middle 50% of the distriubution range.",
+    "name": "IQR",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-07-10T17:41:43.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-15T14:06:18.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/IQR_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/IQR_operator"
+    },
+    "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "PCA Shiny operator",
+    "name": "PCA Shiny",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-11T11:41:20.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-08-09T19:14:30.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/PCA_shiny_operator"
+      }
+    ],
+    "tags": [
+      "pamgene",
+      "pca"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/PCA_shiny_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "PTK_QC_presence",
+    "name": "PTK QC",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-10T06:56:18.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-07T18:22:30.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/PTK_QC_presence_operator"
+      }
+    ],
+    "tags": [
+      "pamgene",
+      "linear model"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/PTK_QC_presence_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Multiply input values by 100.",
+    "name": "S100",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-05-07T09:19:57.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-05-25T09:02:32.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/S100_operator"
+      }
+    ],
+    "tags": [
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/S100_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Creates a Venn diagram in a shiny application.",
+    "name": "Venn",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-11T11:38:44.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-14T12:07:55.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/Venn_diag_shiny_operator"
+      }
+    ],
+    "tags": [
+      "venn",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/Venn_diag_shiny_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "2 way Analysis of variance",
+    "name": "ANOVA2",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-05-10T13:48:07.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-07T14:01:13.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/anova2_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "test",
+      "linear model"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/anova2_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Performs a statistical comparison of one control vs muliptle treatment conditions.",
+    "name": "ANOVA and Dunnett",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-25T09:42:49.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-29T08:14:51.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/anova_dunnett_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "test",
+      "linear model",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/anova_dunnett_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Analysis Of Variance: test for significant differences among group means.",
+    "name": "ANOVA",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-01-15T12:02:18.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-09-15T09:23:57.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/anova_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "test",
+      "linear model"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/anova_operator"
+    },
+    "version": "1.0.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "tercen/anova_operator:1.0.0"
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Transforms values using inverse hyperpolic functions. Also denoted as arcsinh, arsinh, or argsinh.",
+    "name": "asinh",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-10-12T05:27:56.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-05-24T13:55:55.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/asinh_operator"
+      }
+    ],
+    "tags": [
+      "data transformation",
+      "data wrangling",
+      "transform",
+      "flow cytometry"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/asinh_operator"
+    },
+    "version": "1.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Trains an autoencoder-based model",
+    "name": "Autoencoder operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-03-19T20:15:23.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-12T11:34:59.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/autoencoder_operator"
+      }
+    ],
+    "tags": [
+      "clustering",
+      "dimension reduction"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/autoencoder_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Generate advanced barplots as PNG files.",
+    "name": "Bar plot",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-05-10T10:56:02.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-12-05T09:58:54.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/barplot_operator"
+      }
+    ],
+    "tags": [
+      "data visualisation",
+      "plot"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/barplot_operator"
+    },
+    "version": "0.1.5",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Displays the distribution of data based on a five number summary. Also called a box-whisker plot.",
+    "name": "Box Plot",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-07-13T08:46:19.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-06-18T10:53:18.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/boxplot_shiny_operator"
+      }
+    ],
+    "tags": [
+      "plot"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/boxplot_shiny_operator"
+    },
+    "version": "0.0.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculate Normalization Factors: From the EdgeR package. It normalizes the data multiplied by a scaling factor based on a selected method. TMM, RLE or Upperquartile.",
+    "name": "calcNormFactors",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-09-25T07:14:07.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-15T15:49:42.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/calcnormfactors_operator"
+      }
+    ],
+    "tags": [
+      "normalization",
+      "rnaseq"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/calcnormfactors_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Annotate cell populations based on a marker enrichment score computed for each cluster.",
+    "name": "Cell Annotation",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-06-30T10:28:15.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-30T16:20:49.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/cell_annotation_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry",
+      "annotation"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/cell_annotation_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Returns precision, recall and F1-score of a classification",
+    "name": "Classification metrics",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-03-19T15:39:17.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-12T13:13:41.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/classification_metrics_operator"
+      }
+    ],
+    "tags": [
+      "clustering"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/classification_metrics_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Flags selected columns in the view.",
+    "name": "Col-flag",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-10-08T07:33:29.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-18T09:30:03.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/col_flag_operator"
+      }
+    ],
+    "tags": [
+      "flagging"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/col_flag_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Joins the contents of multiple text columns into a single string of text.",
+    "name": "Concatenate",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-26T20:51:07.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-22T15:12:14.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/concatenate_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling",
+      "text processing",
+      "text manipulation"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/concatenate_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Define a cell to have a constant value.",
+    "name": "Constant",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-09-03T09:30:21.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-06-18T11:05:49.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/constant_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/constant_operator"
+    },
+    "version": "1.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Count the number of data points per cell",
+    "name": "Count",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2017-11-17T12:03:27.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-08-30T08:44:37.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/count_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/count_operator"
+    },
+    "version": "0.11.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Curve fitting.",
+    "name": "Curve Fitter Shiny Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2016-02-10T09:34:07.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-08T13:55:04.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/curvefitter_shiny_operator"
+      }
+    ],
+    "tags": [
+      "template"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/curvefitter_shiny_operator"
+    },
+    "version": "0.0.6",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Coefficient of Variation: Calculates a standardized measure of dispersion of a frequency distribution. It is often expressed as a percentage, and is defined as the ratio of the standard deviation to the mean ",
+    "name": "CV",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-04-29T11:53:32.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-01-21T18:16:18.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/cv_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/cv_operator"
+    },
+    "version": "1.0.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "R library to normalize cytometry data using flowsom method",
+    "name": "cytonorm",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-08-08T19:21:22.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-22T14:19:21.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/cytonorm_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry",
+      "normalization"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/cytonorm_operator"
+    },
+    "version": "1.2.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "lucas501/cytonorm_docker:1.1.9"
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Displays the distribution of a numeric variable using the probability density function of the variable. It is a smoothed version of the histogram.",
+    "name": "Density Plot",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-01-08T13:58:57.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-06-18T11:14:34.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/densityplot_shiny_operator"
+      }
+    ],
+    "tags": [
+      "plot",
+      "data visualisation"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/densityplot_shiny_operator"
+    },
+    "version": "0.0.4",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Statistical methods for differential discovery analyses in high-dimensional cytometry data.",
+    "name": "diffcyt",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-09-01T07:09:19.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-09-20T16:36:29.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/diffcyt_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry",
+      "omics",
+      "statistical testing"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/diffcyt_operator"
+    },
+    "version": "0.3.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "tercen/diffcyt_operator:0.3.1"
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Export a view from Tercen in crosstab file format.",
+    "name": "Export Crosstab Shiny Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-05-10T13:59:24.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-08-12T09:30:41.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/export_crosstab_shiny_operator"
+      }
+    ],
+    "tags": [
+      "shiny"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/export_crosstab_shiny_operator"
+    },
+    "version": "0.0.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calclates the Jaccard coefficient between nearest-neighbor sets and identifys clusters representing phenotypic similarities between cells.",
+    "name": "Fast_Rphenograph",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-12-06T13:29:10.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-12-07T13:33:07.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/rphenograph_operator"
+      }
+    ],
+    "tags": [
+      "clustering",
+      "flow cytometry",
+      "cytof"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/fast_rphenograph_operator"
+    },
+    "version": "1.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "FFT-accelerated Interpolation-based t-SNE: an alternative method of t-SNE for constructing a low dimensional embedding of high-dimensional data.",
+    "name": "FI-t-SNE",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-07-09T14:39:00.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-23T13:06:34.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/fast_tSNE_operator"
+      }
+    ],
+    "tags": [
+      "dimensionality reduction"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/fast_tSNE_operator"
+    },
+    "version": "0.1.4",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Flow Cytometry Automatic or Interactive anomaly detection: An alglorithm to perform quality control on FCS data.",
+    "name": "FlowAI",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2019-10-20T08:28:00.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-04-22T12:16:36.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/flowai_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/flowai_operator"
+    },
+    "version": "0.2.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Flow Cytometry Cleaning: A quality control tool for fluorescence anomalies in flow cytometry data. Based on compositional data analysis.",
+    "name": "FlowClean",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-04-19T07:00:43.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-04-26T13:55:00.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/flowclean_operator"
+      }
+    ],
+    "tags": [
+      "flowcytometry"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/flowclean_operator"
+    },
+    "version": "0.2.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Perform quality control of flow cytometry data using flowCut.",
+    "name": "flowCut",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-23T07:48:03.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-05T07:19:00.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/flowcut_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry",
+      "QC"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/flowcut_operator"
+    },
+    "version": "0.1.6",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "tercen/flowcut_operator:0.1.6"
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Exports FlowJo results.",
+    "name": "FlowJo Export Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-04-05T15:01:04.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-12T07:17:09.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/flowjo_export_operator"
+      }
+    ],
+    "tags": [
+      "flowjo"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/flowjo_export_operator"
+    },
+    "version": "0.2.7",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates a probability of whether a data point will meet a binary criteria.",
+    "name": "Logistic Regression",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-20T19:17:31.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-03T15:41:30.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/logistic_regression_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "linear model",
+      "test"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/generalised_linear_model_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Hierarchical Clustering: An algorithm that groups data points in levels of similarity returns the order of groups.",
+    "name": "Hclust - Order",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-01-17T11:31:26.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-30T09:49:27.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/hclust_operator"
+      }
+    ],
+    "tags": [
+      "multivariate statistics",
+      "clustering"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/hclust_operator"
+    },
+    "version": "1.1.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "DockerWebAppOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Interactive heatmap operator for Tercen",
+    "name": "Heatmap Dashboard",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-04-26T18:22:59.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-18T11:27:36.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/heatmap_dashboard_operator"
+      }
+    ],
+    "tags": [
+      "heatmap",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/heatmap_dashboard_operator"
+    },
+    "version": "0.3.0",
+    "authors": [
+      "rdw"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false,
+    "container": "tercen/heatmap_dashboard_operator:0.3.0"
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Displays a graphical representation of data where values are depicted by color. ",
+    "name": "Heatmap Plot",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-05-19T14:19:37.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-22T08:33:39.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/heatmap_shiny_operator"
+      }
+    ],
+    "tags": [
+      "heatmap"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/heatmap_shiny_operator"
+    },
+    "version": "0.1.8",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Displays a representation of the distribution of numerical data using bars on an X,Y grid.",
+    "name": "Histogram Plot",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-30T19:57:49.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-11T14:45:19.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/histogram_operator"
+      }
+    ],
+    "tags": [
+      "data visualisation",
+      "plot",
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/histogram_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Returns the per pairing identity of the input values.",
+    "name": "Identity",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-07T06:51:26.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-05-24T12:45:39.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/identity_operator"
+      }
+    ],
+    "tags": [
+      "identity",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/identity_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Replaces missing data (NA) from a table by the column mean or with a value.",
+    "name": "Impute",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2019-04-04T20:44:38.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-21T13:53:30.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/impute_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/impute_operator"
+    },
+    "version": "0.3.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "A non-parametric method for testing whether samples originate from the same distribution. It is used for comparing two or more independent samples.",
+    "name": "Kruskal-Wallis Test",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-12-11T16:52:40.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-28T21:19:26.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/kruskaltest_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "test"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/kruskaltest_operator"
+    },
+    "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Perform Levene's test to assess homogeneity of variance across groups.",
+    "name": "Levene's test",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-10-17T14:12:37.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-10-17T19:41:19.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/levene_test_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "test",
+      "linear model"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/levene_test_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "tercen/levene_test_operator:0.0.1"
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Transforms data using a logarithmic function with an optional cutoff of values.",
+    "name": "Log Cutoff",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-05-10T13:44:20.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-07T13:23:16.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/log_cutoff_operator"
+      }
+    ],
+    "tags": [
+      "log",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/log_cutoff_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Transforms cell by calculating the logarithmic values.",
+    "name": "Log",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2017-11-17T12:14:06.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-09-13T10:27:41.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/log_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling",
+      "data transformation"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/log_operator"
+    },
+    "version": "1.1.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Transforms proportion data from logistic regression to a binary value (1 or 0).",
+    "name": "Logit",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-12-28T13:22:46.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-01T11:12:29.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/rdewijn/logit_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling",
+      "data transformation",
+      "transform"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/logit_operator"
+    },
+    "version": "0.1.4",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Compute the Mean Absolute Deviation of a set of data points, a robust measure of the variability.",
+    "name": "MAD (Mean Absolute Deviation)",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-06-30T17:31:32.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-30T18:01:41.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/mad_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/mad_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Compute a standardised marker enrichment score per cluster.",
+    "name": "Marker Enrichment Score",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-06-09T07:56:14.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-11-02T16:53:41.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/marker_enrichment_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry",
+      "clustering"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/marker_enrichment_operator"
+    },
+    "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculate the maximum value in a cell",
+    "name": "Max",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2019-02-05T16:34:10.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-30T09:25:58.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/max_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/max_operator"
+    },
+    "version": "0.2.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the average (mean) and the coefficient of variance(CV) of sample replicates.",
+    "name": "Mean and CV",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-05-24T08:36:50.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-20T09:12:53.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/mean_and_cv_shiny_operator"
+      }
+    ],
+    "tags": [
+      "shiny"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/mean_and_cv_shiny_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculate the mathamatical average of the data points in a cell.",
+    "name": "Mean",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2017-10-21T13:22:50.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-05-24T11:26:59.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/mean_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/mean_operator"
+    },
+    "version": "1.2.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculate the Mean and Standard Deviation of the data points in a cell.",
+    "name": "Mean and SD",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-11-03T13:57:53.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-08-24T08:25:53.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/mean_sd_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/mean_sd_operator"
+    },
+    "version": "0.1.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Compute the median and Median Absolute Deviation (MAD) of the data points in a cell.",
+    "name": "Median and MAD",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-06-30T17:46:51.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-30T18:06:09.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/median_mad_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/median_mad_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the middle value of a range. The value that has an equal number of values above and below it.",
+    "name": "Median",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2019-02-05T16:29:01.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-30T17:34:24.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/median_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/median_operator"
+    },
+    "version": "1.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Substracts the Min and divides by the Range of a dataset. The value returned is between 0 to 1.",
+    "name": "Scale Min/Max",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-01-08T14:05:43.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-01T13:18:39.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/minmax_scale_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/minmax_scale_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Returns the difference of two values",
+    "name": "Minus",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-07T12:48:12.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-15T15:07:26.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/minus_operator"
+      }
+    ],
+    "tags": [
+      "basic operations",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/minus_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Model-based clustering based on finite normal mixture modelling",
+    "name": "Model Based Clustering",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-25T09:41:43.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-07T15:37:31.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/model_based_clustering_operator"
+      }
+    ],
+    "tags": [
+      "clustering",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/model_based_clustering_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Multiply by constant.",
+    "name": "Multiply by Constant",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-05-05T14:09:38.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-12T05:38:20.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/multiplybyconstant_operator"
+      }
+    ],
+    "tags": [
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/multiplybyconstant_operator"
+    },
+    "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "A machine learning method for classifying multivariate data into distinct classes according to a given distance metric over the data.",
+    "name": "Neighbourhood Analysis",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2019-11-10T20:22:32.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-22T14:15:49.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/neighbourhood_operator"
+      }
+    ],
+    "tags": [
+      "flowcytometry",
+      "image flowcytometry"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/neighbourhood_operator"
+    },
+    "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Operator that estimates nominal CV's that can be used for setting a peptide cut-off.",
+    "name": "Nominal CV Estimate",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-21T08:09:27.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-07T18:40:36.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/nominal_cv_estimate_operator"
+      }
+    ],
+    "tags": [
+      "cv",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/nominal_cv_estimate_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Returns the parameters of a non linear regression",
+    "name": "Non Linear Regression",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-02-07T00:58:52.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-18T16:31:22.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/nonlinear_regression_operator"
+      }
+    ],
+    "tags": [
+      "linear model",
+      "modelling",
+      "regression"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/nonlinear_regression_operator"
+    },
+    "version": "1.0.5",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates pairwise (e.g x,y) distances between variables as a single number.",
+    "name": "Pairwise Distance",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-06-20T18:03:14.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-10T13:57:03.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/pairwise_distance_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/pairwise_distance_operator"
+    },
+    "version": "0.1.5",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "pamsoft_grid_operator",
+    "name": "pamsoft_grid_operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-07-20T08:44:46.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-14T09:56:41.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/pamsoft_grid_operator"
+      }
+    ],
+    "tags": [
+      "image analysis"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/pamsoft_grid_operator"
+    },
+    "version": "1.2.1",
+    "authors": [
+      "tercen",
+      "Thiago"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "tercen/pamsoft_grid_operator:1.2.1"
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "pamsoft_grid_qt_operator",
+    "name": "pamsoft_grid_qt_operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-08-23T11:06:25.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-14T10:19:54.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/pamsoft_grid_qt_operator"
+      }
+    ],
+    "tags": [
+      "image analysis"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/pamsoft_grid_qt_operator"
+    },
+    "version": "1.2.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "tercen/pamsoft_grid_qt_operator:1.2.0"
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Operator used to inspect and adjust gridding.",
+    "name": "Pamsoft Grid Shiny Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-10-04T06:56:04.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-05-16T17:57:01.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/pamsoft_grid_shiny_operator"
+      }
+    ],
+    "tags": [
+      "pamsoft",
+      "grid"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/pamsoft_grid_shiny_operator"
+    },
+    "version": "1.1.5",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Principal Component Analysis: Performs dimensionality reduction by calculating the most variables with the most variance, and expressing this a smaller set of new variables called components.",
+    "name": "PCA",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2017-08-15T15:56:37.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-23T08:50:37.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/pca_operator"
+      }
+    ],
+    "tags": [
+      "dimension reduction",
+      "multivariate statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/pca_operator"
+    },
+    "version": "1.3.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the percentile value of a cell",
+    "name": "Percentile",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2019-01-14T09:54:37.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-01T14:23:47.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/percentile_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/percentile_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Flow Cytometry Plot",
+    "name": "Flow Cytometry Plot (Shiny)",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-04T13:25:24.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-07T16:38:13.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/plot_fcs_shiny_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry",
+      "plot"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/plot_fcs_shiny_operator"
+    },
+    "version": "0.1.8",
+    "authors": [
+      "tercen",
+      "wptmdoorn"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the product (i.e. multiplication) of all datapoints in a cell",
+    "name": "Product",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-09-25T18:05:16.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-24T14:52:12.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/product_operator"
+      }
+    ],
+    "tags": [
+      "simple arithmetic"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/product_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates counts and relative proportions per row, column, and overall.",
+    "name": "Proportion Analysis",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-01-08T22:04:26.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-24T06:31:49.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/proportion_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling",
+      "basic operations"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/proportion_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Convert a zip file of tif images to a Tercen data set.",
+    "name": "PS12 images",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-03-30T14:57:22.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-19T16:02:02.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/ps12image_operator"
+      }
+    ],
+    "tags": [
+      "tif",
+      "import"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/ps12image_operator"
+    },
+    "version": "1.0.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Filtering and viewing ps12 images in a shiny app.",
+    "name": "PS12 Image Overview Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-04-27T12:55:21.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-13T12:41:40.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/ps12image_overview_shiny_operator"
+      }
+    ],
+    "tags": [
+      "shiny",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/ps12image_overview_shiny_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Quantile-Quantile Plot: Displays a scatterplot of two sets of quantiles against one another. Used to compare distributions. ",
+    "name": "Q-Q Plot",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-30T21:39:11.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-03T15:29:57.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/qqplot_operator"
+      }
+    ],
+    "tags": [
+      "data visualisation",
+      "statistical testing"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/qqplot_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates random labels which can be assigned to sample data",
+    "name": "Random Label",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-06-19T21:10:08.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-24T14:58:05.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/randomlabel_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling",
+      "sampling"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/randomlabel_operator"
+    },
+    "version": "1.0.6",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Ranks the incoming data by row mean.",
+    "name": "Rank by Row mean",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-24T08:24:40.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-05-25T08:24:59.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/rank_by_row_mean_operator"
+      }
+    ],
+    "tags": [
+      "rank",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/rank_by_row_mean_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Imports multiple CSV files in a zip file.",
+    "name": "CSV (multiple files)",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-08-17T15:55:35.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-09-22T15:48:49.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/read_csv_operator"
+      }
+    ],
+    "tags": [
+      "import"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/read_csv_operator"
+    },
+    "version": "0.2.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Import file from FASTA compatible machinery (.fasta, .fna, .ffn, .faa, .frn)",
+    "name": "FASTA",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-03T20:54:42.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-14T17:10:06.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/read_fasta_operator"
+      }
+    ],
+    "tags": [
+      "import",
+      "sequence analysis"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/read_fasta_operator"
+    },
+    "version": "0.1.7",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Import a Flow Cytometry Standard file (.fcs).",
+    "name": "FCS",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-07-08T10:16:06.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-12-07T12:45:58.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/read_fcs_operator"
+      }
+    ],
+    "tags": [
+      "import",
+      "flow cytometry"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/read_fcs_operator"
+    },
+    "version": "1.6.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Import a Gene Matrix Transposed file (.gmt)",
+    "name": "GMT",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-10T15:57:20.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-14T17:29:45.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/read_gmt_operator"
+      }
+    ],
+    "tags": [
+      "file conversion",
+      "Import"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/read_gmt_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Import a PamGene Cube file.",
+    "name": "Cube",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-08-10T16:53:52.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-11-12T14:00:32.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/read_pgcube_operator"
+      }
+    ],
+    "tags": [
+      "import",
+      "pamgene",
+      "cube"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/read_pgcube_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "reads a PNG file.",
+    "name": "PNG",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-12-12T14:23:31.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-08-16T10:24:02.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/read_png_operator"
+      }
+    ],
+    "tags": [
+      "import",
+      "image"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/read_png_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Import an R-Data object (.rds)",
+    "name": "RDS",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-08-21T08:22:23.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-10-24T15:08:22.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/read_rds_operator"
+      }
+    ],
+    "tags": [
+      "rds",
+      "import"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/read_rds_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Import file from Excel 2007-365 (.xlsx, .xlsm).",
+    "name": "Excel",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-07-18T08:03:39.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-07T13:33:09.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/readxl_operator"
+      }
+    ],
+    "tags": [
+      "excel",
+      "import"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/readxl_operator"
+    },
+    "version": "1.2.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Replaces any text matched in a string with an alternative text.",
+    "name": "Replace",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-10T16:56:45.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-24T15:51:39.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/replace_operator"
+      }
+    ],
+    "tags": [
+      "text manipulation"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/replace_operator"
+    },
+    "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Shiny operator for creating a ROC curve and classification metrics",
+    "name": "ROC Shiny Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-07-13T12:08:42.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-09-02T18:12:09.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/roc_shiny_operator"
+      }
+    ],
+    "tags": [
+      "classification",
+      "ROC",
+      "metrics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/roc_shiny_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "rdw"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Adjusts cell values (up or down) to a specified base number.",
+    "name": "Round",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-15T16:29:01.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-24T16:22:14.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/round_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling",
+      "transform",
+      "data transformation"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/round_operator"
+    },
+    "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calclates the Jaccard coefficient between nearest-neighbor sets and identifys clusters representing phenotypic similarities between cells.",
+    "name": "Rphenograph",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-10-11T21:36:17.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-12-08T15:53:57.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/rphenograph_operator"
+      }
+    ],
+    "tags": [
+      "clustering",
+      "flow cytometry",
+      "cytof"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/rphenograph_operator"
+    },
+    "version": "1.4.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Displays data points on an X/Y axis. Creates a new plot for each grouping.",
+    "name": "Multi-Panel Scatter Plot",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-01-08T23:43:59.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-26T15:55:55.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/scatterplot_shiny_operator"
+      }
+    ],
+    "tags": [
+      "data visualisation"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/scatterplot_shiny_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Separates a character column (text) into multiple columns using a regular expression or numeric locations.",
+    "name": "Separate",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-08-30T13:22:46.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-25T14:13:53.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/separate_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/separate_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "sinh transformation a given data",
+    "name": "sinh",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-02-24T18:27:08.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-05T15:43:16.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/sinh_operator"
+      }
+    ],
+    "tags": [
+      "data transformation",
+      "data wrangling",
+      "transform"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/sinh_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Self organizing map clustering for Tercen",
+    "name": "Som Cluster Shiny Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-08-27T19:23:07.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-09-02T10:46:36.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/template-shiny-operator"
+      }
+    ],
+    "tags": [
+      "SOM",
+      "clustering"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/somcluster_shiny_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "rik de wijn"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the number which (when multiplied by itself) will give the cell value.",
+    "name": "Square Root",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-12-28T13:22:34.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-25T15:29:30.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/sqrt_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling",
+      "data transformation",
+      "transform"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/sqrt_operator"
+    },
+    "version": "0.1.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the sum of all the values of a cell.",
+    "name": "Sum",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-09-12T09:18:04.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-28T12:44:05.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/sum_operator"
+      }
+    ],
+    "tags": [
+      "simple arithmetic"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/sum_operator"
+    },
+    "version": "1.10.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Test for significant differences between the means of multiple groups.",
+    "name": "t Test",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-01-16T09:19:07.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-09-14T15:52:09.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/t_test_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/t_test_operator"
+    },
+    "version": "1.0.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "tercen/t_test_operator:1.0.0"
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Select a specified quantity (N) of data from the first record of the set onwards. (e.g. Top 10)",
+    "name": "Top (N)",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-07-27T10:19:27.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-25T14:45:34.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/topn_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/topn_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "t-Distributed Stochastic Neighbor Embedding: is a method for constructing a low dimensional embedding of high-dimensional data.",
+    "name": "t-SNE",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2017-11-17T11:43:50.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-11-08T21:42:26.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/tsne_operator"
+      }
+    ],
+    "tags": [
+      "multivariate statistics",
+      "flow cytometry",
+      "dimensionality reduction"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/tsne_operator"
+    },
+    "version": "1.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "DockerOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Test for significant pairwise differences among group means while controlling for Family-Wise Error Rate.",
+    "name": "Tukey's test",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2022-10-14T08:55:03.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-10-14T10:17:57.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/tukey_hsd_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "test",
+      "linear model"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/tukey_hsd_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "container": "tercen/tukey_hsd_operator:0.0.2"
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Determines if there is a significant difference between the means of two groups",
+    "name": "t-Test - Two Group",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-02T07:50:18.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-07T15:04:53.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/two_sample_ttest_operator"
+      }
+    ],
+    "tags": [
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/two_sample_ttest_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Converts a list of peptides into a list of kinases.",
+    "name": "Upstream Kinase Analysis",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-29T06:45:55.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-09-10T11:30:35.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/upstream_kinase_analysis_shiny_operator"
+      }
+    ],
+    "tags": [
+      "kinase",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/uka_shiny_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Uniform Manifold Approximation and Projection: Calculates nonlinear dimension reduction on a data set.",
+    "name": "umap",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2019-10-12T11:03:33.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-24T10:08:31.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/umap_operator"
+      }
+    ],
+    "tags": [
+      "flow cytometry",
+      "rnaseq",
+      "dimensionality reduction"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/umap_operator"
+    },
+    "version": "1.2.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates an upper and lower bound value as a fraction of a given data point.",
+    "name": "Upper and Lower Bounds",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-09-17T21:47:18.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-15T13:42:53.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/upperandlowerbounds_operator"
+      }
+    ],
+    "tags": [
+      "simple statistics",
+      "Pharma"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/upperandlowerbounds_operator"
+    },
+    "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Displays logical relations between data sets as overlapping elipses.",
+    "name": "Venn Diagram",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-12-05T09:57:50.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-22T11:29:28.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/venn_shiny_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/venn_shiny_operator"
+    },
+    "version": "1.0.6",
+    "authors": [
+      "mpg-age-bioinformatics",
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Template to create a Shiny operator in Tercen.",
+    "name": "Template Shiny Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-02-20T20:46:41.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-03-08T16:41:30.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/template_shiny_operator"
+      }
+    ],
+    "tags": [
+      "template"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/volcano_shiny_operator"
+    },
+    "version": "0.0.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Variance Stabilisation and Normalisation: Removes the relation between the variance and magnitude of the measurement.",
+    "name": "VSN",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2019-07-03T19:41:28.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-01T11:34:20.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/vsn_operator"
+      }
+    ],
+    "tags": [
+      "normalization",
+      "rnaseq"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/vsn_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Normalization: VSN (VSN with shiny interface app)",
+    "name": "VSN",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-06-08T08:12:57.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-11-11T17:39:50.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/vsn_shiny_operator"
+      }
+    ],
+    "tags": [
+      "normalization",
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/vsn_shiny_operator"
+    },
+    "version": "0.0.5",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": false
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the difference between sets of pairs and analyzes these differences to establish if they are statistically significantly different from one another. There are two variants Rank Sum and Signed Rank.",
+    "name": "Wilcoxon Test",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-12-11T16:54:10.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-12T07:39:26.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/wilcoxtest_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "test"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/wilcoxtest_operator"
+    },
+    "version": "0.1.4",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Count words in a document",
+    "name": "Word Count",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-07-06T11:49:08.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-10T10:52:30.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/wordcount_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/wordcount_operator"
+    },
+    "version": "1.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ShinyOperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Export an FCS file from Tercen.",
+    "name": "Write FCS Shiny Operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-04-23T09:30:08.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-04-27T12:46:30.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/write_fcs_shiny_operator"
+      }
+    ],
+    "tags": [
+      "shiny"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/write_fcs_shiny_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": "",
+    "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the z score for all data points. ",
+    "name": "Z-score scaling",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-05-28T10:47:04.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-07T13:06:14.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/zscore_scaling_operator"
+      }
+    ],
+    "tags": [
+      "pamgene"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/zscore_scaling_operator"
+    },
+    "version": "0.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  }
+]
