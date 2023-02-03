@@ -1,5 +1,186 @@
 {
-  "failed_operators": [],
+  "failed_operators": [
+    {
+      "name": "DESeq2",
+      "version": "0.1.2",
+      "url": "https://github.com/tercen/DESeq2_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.137, reason: Failed to run operator, please increase memory resources.})"
+    },
+    {
+      "name": "ETS",
+      "version": "0.2.0",
+      "url": "https://github.com/tercen/ETS_operator",
+      "error": "ServiceError({statusCode: -142, error: task.test.operator.bad.nRelations, reason: simpleRelations.length != outputSchemas.length})"
+    },
+    {
+      "name": "Add",
+      "version": "0.1.1",
+      "url": "https://github.com/tercen/add_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "Automated gating",
+      "version": "0.3.2",
+      "url": "https://github.com/tercen/automated_gating_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.1, reason: Failed to run operator, exit code = 1\n--ERR--\nWARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.\nWarning message:\nreplacing previous import ‘flowViz::contour’ by ‘graphics::contour’ when loading ‘flowStats’ \nError in `vec_as_location2_result()`:\n! Can't subset columns past the end.\nℹ Location 1 doesn't exist.\nℹ There are only 0 columns.\nBacktrace:\n     ▆\n  1. ├─base::levels(as.factor(files[[1]]))\n  2. ├─base::as.factor(files[[1]])\n  3. │ └─base::is.factor(x)\n  4. ├─files[[1]]\n  5. └─tibble:::`[[.tbl_df`(files, 1)\n  6.   └─tibble:::tbl_subset2(x, j = i, j_arg = substitute(i))\n  7.     └─tibble:::vectbl_as_col_location2(j, length(x), j_arg = j_arg)\n  8.       ├─tibble:::subclass_col_index_errors(...)\n  9.       │ └─base::withCallingHandlers(...)\n 10.       └─vctrs::vec_as_location2(j, n, names)\n 11.         ├─vctrs:::result_get(...)\n 12.         └─vctrs:::vec_as_location2_result(...)\n 13.           ├─base::tryCatch(...)\n 14.           │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)\n 15.           │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])\n 16.           │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)\n 17.           └─vctrs::vec_as_location(i, n, names = names, arg = arg)\n 18.             └─vctrs (local) `<fn>`()\n 19.               └─vctrs:::stop_subscript_oob(...)\n 20.                 └─vctrs:::stop_subscript(...)\n 21.                   └─rlang::abort(...)\nExecution halted\n})"
+    },
+    {
+      "name": "Base Change",
+      "version": "0.1.1",
+      "url": "https://github.com/tercen/change_from_baseline_operator",
+      "error": "ServiceError({statusCode: -142, error: create.operator.renv.lock.missing, reason: Failed to create operator, renv lock file is missing})"
+    },
+    {
+      "name": "Check input 1 operator",
+      "version": "0.0.3",
+      "url": "https://github.com/tercen/check_input1_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.1, reason: Failed to run operator, exit code = 1\n--ERR--\nWARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.\n\nAttaching package: ‘dplyr’\n\nThe following objects are masked from ‘package:stats’:\n\n    filter, lag\n\nThe following objects are masked from ‘package:base’:\n\n    intersect, setdiff, setequal, union\n\nError: UnknownError: end of stream before headers finished\nExecution halted\n})"
+    },
+    {
+      "name": "Hclust Tree",
+      "version": "0.1.2",
+      "url": "https://github.com/tercen/clustering_tree_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.1, reason: Failed to run operator, exit code = 1\n--OUT--\n[1] FALSE\n--ERR--\nWARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.\n\nAttaching package: ‘dplyr’\n\nThe following objects are masked from ‘package:stats’:\n\n    filter, lag\n\nThe following objects are masked from ‘package:base’:\n\n    intersect, setdiff, setequal, union\n\n\n---------------------\nWelcome to dendextend version 1.15.2\nType citation('dendextend') for how to cite the package.\n\nType browseVignettes(package = 'dendextend') for the package vignette.\nThe github page is: https://github.com/talgalili/dendextend/\n\nSuggestions and bug-reports can be submitted at: https://github.com/talgalili/dendextend/issues\nYou may ask questions at stackoverflow, use the r and dendextend tags: \n\t https://stackoverflow.com/questions/tagged/dendextend\n\n\tTo suppress this message use:  suppressPackageStartupMessages(library(dendextend))\n---------------------\n\n\nAttaching package: ‘dendextend’\n\nThe following object is masked from ‘package:stats’:\n\n    cutree\n\n\nAttaching package: ‘reshape2’\n\nThe following object is masked from ‘package:tidyr’:\n\n    smiths\n\nError in (function (file = if (onefile) \"Rplots.pdf\" else \"Rplot%03d.pdf\",  : \n  cannot open file 'Rplots.pdf'\nCalls: image ... image.default -> plot -> plot.default -> dev.hold -> <Anonymous>\nExecution halted\n})"
+    },
+    {
+      "name": "cycombine_operator",
+      "version": "0.2.0",
+      "url": "https://github.com/tercen/cycombine_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.137, reason: Failed to run operator, please increase memory resources.})"
+    },
+    {
+      "name": "CYTOF Debarcoding",
+      "version": "0.0.3",
+      "url": "https://github.com/tercen/debarcoding_cytof_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.137, reason: Failed to run operator, please increase memory resources.})"
+    },
+    {
+      "name": "Density",
+      "version": "0.11.1",
+      "url": "https://github.com/tercen/density_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "DR Curve Fitting Operator",
+      "version": "1.2.0",
+      "url": "https://github.com/tercen/dose_response_fit_operator",
+      "error": "ServiceError({statusCode: -142, error: task.test.operator.bad.nRelations, reason: simpleRelations.length != outputSchemas.length})"
+    },
+    {
+      "name": "FAUST",
+      "version": "0.0.5",
+      "url": "https://github.com/tercen/faust_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.1, reason: Failed to run operator, exit code = 1\n--ERR--\nWARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.\n\nAttaching package: ‘dplyr’\n\nThe following objects are masked from ‘package:stats’:\n\n    filter, lag\n\nThe following objects are masked from ‘package:base’:\n\n    intersect, setdiff, setequal, union\n\nError in apply(quantileDataLow, 2, function(x) { : \n  object 'quantileDataLow' not found\nCalls: <Anonymous> ... generateAnnotationThresholds -> .processChannelBounds -> apply\nExecution halted\n})"
+    },
+    {
+      "name": "Flag Condition",
+      "version": "0.2.0",
+      "url": "https://github.com/tercen/flag_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "FlowSOM MST",
+      "version": "0.1.3",
+      "url": "https://github.com/tercen/flowsom_mst_shiny_operator",
+      "error": "ServiceError({statusCode: -142, error: create.operator.docker.failed, reason: Failed to pull operator})"
+    },
+    {
+      "name": "FlowSOM",
+      "version": "1.3.4",
+      "url": "https://github.com/tercen/flowsom_operator",
+      "error": "ServiceError({statusCode: -142, error: task.test.operator.bad.nCols, reason: table.nCols != refTable.nCols})"
+    },
+    {
+      "name": "globaltest_operator",
+      "version": "0.1.1",
+      "url": "https://github.com/tercen/globaltest_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.137, reason: Failed to run operator, please increase memory resources.})"
+    },
+    {
+      "name": "Hclust - Groups",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/hierarchical_clustering_operator",
+      "error": "ServiceError({statusCode: -142, error: task.test.operator.bad.nRelations, reason: simpleRelations.length != outputSchemas.length})"
+    },
+    {
+      "name": "Multiple Testing",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/multiple_testing_operator",
+      "error": "ServiceError({statusCode: -142, error: create.operator.renv.failed, reason: Failed to create operator})"
+    },
+    {
+      "name": "Multiply",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/multiply_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "Negative",
+      "version": "0.1.3",
+      "url": "https://github.com/tercen/negative_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "Normalisation",
+      "version": "0.1.1",
+      "url": "https://github.com/tercen/normalyzer_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.1, reason: Failed to run operator, exit code = 1\n--ERR--\nWARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.\n\nAttaching package: ‘dplyr’\n\nThe following objects are masked from ‘package:stats’:\n\n    filter, lag\n\nThe following objects are masked from ‘package:base’:\n\n    intersect, setdiff, setequal, union\n\nError: UnknownError: acast -- bad index\nExecution halted\n})"
+    },
+    {
+      "name": "PeacoQC",
+      "version": "0.2.2",
+      "url": "https://github.com/tercen/peacoqc_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.137, reason: Failed to run operator, please increase memory resources.})"
+    },
+    {
+      "name": "Ratio",
+      "version": "1.9.1",
+      "url": "https://github.com/tercen/ratio_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "Cell Ranger",
+      "version": "0.1.1",
+      "url": "https://github.com/tercen/read_cellranger_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: type 'int' is not a subtype of type 'String' in type cast})"
+    },
+    {
+      "name": "Regression Coefficients",
+      "version": "0.1.2",
+      "url": "https://github.com/tercen/regression_coefficients_operator",
+      "error": "ServiceError({statusCode: -142, error: task.test.operator.bad.nRelations, reason: simpleRelations.length != outputSchemas.length})"
+    },
+    {
+      "name": "Sequence Length",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/seqlen_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "Shift",
+      "version": "0.2.0",
+      "url": "https://github.com/tercen/shift_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "Sign Change",
+      "version": "0.9.1",
+      "url": "https://github.com/tercen/signchange_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "Subtract",
+      "version": "0.1.3",
+      "url": "https://github.com/tercen/subtract_operator",
+      "error": "ServiceError({statusCode: -142, error: unknown, reason: OperatorResult -- .ci or .ri attribute is required})"
+    },
+    {
+      "name": "TrackSOM operator",
+      "version": "0.0.8",
+      "url": "https://github.com/tercen/tracksom_operator",
+      "error": "ServiceError({statusCode: -142, error: run.operator.exit.code.1, reason: Failed to run operator, exit code = 1\n--ERR--\nWARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.\n\nAttaching package: ‘dplyr’\n\nThe following objects are masked from ‘package:stats’:\n\n    filter, lag\n\nThe following objects are masked from ‘package:base’:\n\n    intersect, setdiff, setequal, union\n\nWarning message:\npackage ‘dplyr’ was built under R version 4.0.5 \nWarning messages:\n1: replacing previous import ‘gtools::permute’ by ‘igraph::permute’ when loading ‘TrackSOM’ \n2: replacing previous import ‘flowCore::normalize’ by ‘igraph::normalize’ when loading ‘TrackSOM’ \n3: replacing previous import ‘flowCore::filter’ by ‘tidygraph::filter’ when loading ‘TrackSOM’ \n4: replacing previous import ‘igraph::groups’ by ‘tidygraph::groups’ when loading ‘TrackSOM’ \n\nAttaching package: ‘data.table’\n\nThe following objects are masked from ‘package:dplyr’:\n\n    between, first, last\n\nWarning message:\npackage ‘data.table’ was built under R version 4.0.5 \nError: Two factors need to be projected onto columns.\nExecution halted\n})"
+    }
+  ],
   "notest_operators": [
     {
       "name": "SNNGraphClustering_operator",
@@ -77,6 +258,11 @@
       "url": "https://github.com/tercen/PTK_QC_presence_operator"
     },
     {
+      "name": "RMSD",
+      "version": "0.1.1",
+      "url": "https://github.com/tercen/RMSD_operator"
+    },
+    {
       "name": "S100",
       "version": "0.1.0",
       "url": "https://github.com/tercen/S100_operator"
@@ -132,9 +318,24 @@
       "url": "https://github.com/tercen/cell_annotation_operator"
     },
     {
+      "name": "Chi-squared test",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/chisquare_test_operator"
+    },
+    {
       "name": "Classification metrics",
       "version": "0.1.2",
       "url": "https://github.com/tercen/classification_metrics_operator"
+    },
+    {
+      "name": "Clustering Metrics",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/clustering_metrics_operator"
+    },
+    {
+      "name": "ClusterX",
+      "version": "0.12.0",
+      "url": "https://github.com/tercen/clusterx_operator"
     },
     {
       "name": "Col-flag",
@@ -182,6 +383,11 @@
       "url": "https://github.com/tercen/diffcyt_operator"
     },
     {
+      "name": "Downsample",
+      "version": "0.1.3",
+      "url": "https://github.com/tercen/downsample_operator"
+    },
+    {
       "name": "Export Crosstab Shiny Operator",
       "version": "0.0.3",
       "url": "https://github.com/tercen/export_crosstab_shiny_operator"
@@ -217,9 +423,19 @@
       "url": "https://github.com/tercen/flowjo_export_operator"
     },
     {
+      "name": "Fold Change",
+      "version": "0.10.1",
+      "url": "https://github.com/tercen/foldchange_operator"
+    },
+    {
       "name": "Logistic Regression",
       "version": "0.1.0",
       "url": "https://github.com/tercen/generalised_linear_model_operator"
+    },
+    {
+      "name": "GMM operator",
+      "version": "0.1.2",
+      "url": "https://github.com/tercen/gmm_operator"
     },
     {
       "name": "Hclust - Order",
@@ -252,14 +468,34 @@
       "url": "https://github.com/tercen/impute_operator"
     },
     {
+      "name": "K-means",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/kmeans_operator"
+    },
+    {
       "name": "Kruskal-Wallis Test",
       "version": "0.1.1",
       "url": "https://github.com/tercen/kruskaltest_operator"
     },
     {
+      "name": "Lagpad",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/lagpad_operator"
+    },
+    {
       "name": "Levene's test",
       "version": "0.0.1",
       "url": "https://github.com/tercen/levene_test_operator"
+    },
+    {
+      "name": "Linear Regression",
+      "version": "1.0.2",
+      "url": "https://github.com/tercen/lm_operator"
+    },
+    {
+      "name": "LOESS",
+      "version": "0.1.0",
+      "url": "https://github.com/tercen/loess_smoothing_operator"
     },
     {
       "name": "Log Cutoff",
@@ -270,6 +506,11 @@
       "name": "Log",
       "version": "1.1.3",
       "url": "https://github.com/tercen/log_operator"
+    },
+    {
+      "name": "Log 2-Fold Change",
+      "version": "0.9.1",
+      "url": "https://github.com/tercen/logfoldchange_operator"
     },
     {
       "name": "Logit",
@@ -352,6 +593,11 @@
       "url": "https://github.com/tercen/nonlinear_regression_operator"
     },
     {
+      "name": "Order By",
+      "version": "0.1.3",
+      "url": "https://github.com/tercen/orderBy_operator"
+    },
+    {
       "name": "Pairwise Distance",
       "version": "0.1.5",
       "url": "https://github.com/tercen/pairwise_distance_operator"
@@ -375,6 +621,11 @@
       "name": "PCA",
       "version": "1.3.2",
       "url": "https://github.com/tercen/pca_operator"
+    },
+    {
+      "name": "Pearson",
+      "version": "0.10.1",
+      "url": "https://github.com/tercen/pearson_operator"
     },
     {
       "name": "Percentile",
@@ -467,6 +718,11 @@
       "url": "https://github.com/tercen/replace_operator"
     },
     {
+      "name": "Random Forest Importance",
+      "version": "1.9.1",
+      "url": "https://github.com/tercen/rfImp_operator"
+    },
+    {
       "name": "ROC Shiny Operator",
       "version": "0.1.2",
       "url": "https://github.com/tercen/roc_shiny_operator"
@@ -482,9 +738,19 @@
       "url": "https://github.com/tercen/rphenograph_operator"
     },
     {
+      "name": "Scale",
+      "version": "0.10.1",
+      "url": "https://github.com/tercen/scale_operator"
+    },
+    {
       "name": "Multi-Panel Scatter Plot",
       "version": "0.0.2",
       "url": "https://github.com/tercen/scatterplot_shiny_operator"
+    },
+    {
+      "name": "Standard Deviation",
+      "version": "0.9.1",
+      "url": "https://github.com/tercen/sd_operator"
     },
     {
       "name": "Separate",
