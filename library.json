@@ -228,6 +228,50 @@
     "id": "",
     "isDeleted": false,
     "rev": "",
+    "description": "Root-Mean-Square Deviation: Calculates the differences between the values predicted by a model and the values observed.",
+    "name": "RMSD",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-06-22T19:51:57.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-11T09:24:45.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/RMSD_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/RMSD_operator"
+    },
+    "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
     "description": "Multiply input values by 100.",
     "name": "S100",
     "createdBy": "",
@@ -730,6 +774,51 @@
     "id": "",
     "isDeleted": false,
     "rev": "",
+    "description": "Determines whether there is a statistically significant difference between the expected frequencies and the observed frequencies in a contingency table.",
+    "name": "Chi-squared test",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-21T17:43:32.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-11T14:54:26.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/chisquare_test_operator"
+      }
+    ],
+    "tags": [
+      "statistical testing",
+      "test"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/chisquare_test_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
     "description": "Returns precision, recall and F1-score of a classification",
     "name": "Classification metrics",
     "createdBy": "",
@@ -761,6 +850,94 @@
       "uri": "https://github.com/tercen/classification_metrics_operator"
     },
     "version": "0.1.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates a set of scores that assess the quality of the results derived from a clustering alglorithm.",
+    "name": "Clustering Metrics",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-08-25T19:00:18.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-11T15:07:50.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/clustering_metrics_operator/"
+      }
+    ],
+    "tags": [
+      "clustering"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/clustering_metrics_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Performs fast clustering of data by using automatic search and find of density peaks. Works best with low dimentional data (Less than 5 dimentions).",
+    "name": "ClusterX",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-01-17T15:26:00.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-21T15:25:13.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/clusterx_operator"
+      }
+    ],
+    "tags": [
+      "multivariate statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/clusterx_operator"
+    },
+    "version": "0.12.0",
     "authors": [
       "tercen"
     ],
@@ -1176,6 +1353,51 @@
     "container": "tercen/diffcyt_operator:0.3.1"
   },
   {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Removes data points from a set to make it more manageable. Uses a set method such as integer factor.",
+    "name": "Downsample",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-08-21T16:51:09.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-02-24T13:18:45.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/downsample_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling",
+      "sampling"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/downsample_operator"
+    },
+    "version": "0.1.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
     "kind": "ShinyOperator",
     "id": "",
     "isDeleted": false,
@@ -1493,6 +1715,50 @@
     "id": "",
     "isDeleted": false,
     "rev": "",
+    "description": "Calculates the ratio of change between an original and subsequent measurements.",
+    "name": "Fold Change",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-04-27T19:01:00.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-06-18T15:20:37.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/foldchange_operator"
+      }
+    ],
+    "tags": [
+      "simple statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/foldchange_operator"
+    },
+    "version": "0.10.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
     "description": "Calculates a probability of whether a data point will meet a binary criteria.",
     "name": "Logistic Regression",
     "createdBy": "",
@@ -1526,6 +1792,50 @@
       "uri": "https://github.com/tercen/generalised_linear_model_operator"
     },
     "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Model-based clustering based on finite normal mixture modelling",
+    "name": "GMM operator",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-02-14T18:51:26.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-06-28T14:09:44.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/gmm_operator"
+      }
+    ],
+    "tags": [
+      "clustering"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/gmm_operator"
+    },
+    "version": "0.1.2",
     "authors": [
       "tercen"
     ],
@@ -1811,6 +2121,50 @@
     "id": "",
     "isDeleted": false,
     "rev": "",
+    "description": "Perform k-means clustering",
+    "name": "K-means",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2021-02-11T17:53:25.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-07-05T14:16:58.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/kmeans_operator"
+      }
+    ],
+    "tags": [
+      "multivariate statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/kmeans_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
     "description": "A non-parametric method for testing whether samples originate from the same distribution. It is used for comparing two or more independent samples.",
     "name": "Kruskal-Wallis Test",
     "createdBy": "",
@@ -1843,6 +2197,50 @@
       "uri": "https://github.com/tercen/kruskaltest_operator"
     },
     "version": "0.1.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Computes a lagged version of a data series along columns; shifting the data back by a given number of observations.",
+    "name": "Lagpad",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-11-07T19:12:06.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-11T15:35:14.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/lagpad_operator"
+      }
+    ],
+    "tags": [
+      "data wrangling"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/lagpad_operator"
+    },
+    "version": "0.1.0",
     "authors": [
       "tercen"
     ],
@@ -1897,6 +2295,96 @@
     "longDescription": "",
     "path": "",
     "container": "tercen/levene_test_operator:0.0.1"
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the intercept and slope of a linear regression in a cell",
+    "name": "Linear Regression",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-05-14T17:42:39.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-22T08:52:43.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/agouy/lm_operator"
+      }
+    ],
+    "tags": [
+      "linear model"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/lm_operator"
+    },
+    "version": "1.0.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Locally Weighted Scatterplot Smoothing:  Calculates a smooth line through a timeplot or scatter plot to help you to see relationship between variables and foresee trends. Used in regression analysis.",
+    "name": "LOESS",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-10-23T21:45:42.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2022-03-03T16:07:17.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/loess_smoothing_operator"
+      }
+    ],
+    "tags": [
+      "data visualisation",
+      "smoothing",
+      "modelling"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/loess_smoothing_operator"
+    },
+    "version": "0.1.0",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
   },
   {
     "kind": "ROperator",
@@ -1980,6 +2468,50 @@
       "uri": "https://github.com/tercen/log_operator"
     },
     "version": "1.1.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the log ratio of a measurement in two different conditions",
+    "name": "Log 2-Fold Change",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-04-29T10:13:32.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-26T15:44:02.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/logfoldchange_operator"
+      }
+    ],
+    "tags": [
+      "simple statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/logfoldchange_operator"
+    },
+    "version": "0.9.1",
     "authors": [
       "tercen"
     ],
@@ -2707,6 +3239,50 @@
     "id": "",
     "isDeleted": false,
     "rev": "",
+    "description": "Order data according to row-wise or column-wise metrics.",
+    "name": "Order By",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2020-08-25T12:12:58.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-10-07T13:41:37.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/orderBy_operator"
+      }
+    ],
+    "tags": [
+      "basic operations"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/orderBy_operator"
+    },
+    "version": "0.1.3",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
     "description": "Calculates pairwise (e.g x,y) distances between variables as a single number.",
     "name": "Pairwise Distance",
     "createdBy": "",
@@ -2920,6 +3496,52 @@
       "uri": "https://github.com/tercen/pca_operator"
     },
     "version": "1.3.2",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Pearson’s Correlation Coefficient measures the statistical relationship between two continuous variable. It gives information about the magnitude and direction of the relationship.",
+    "name": "Pearson",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-01-18T10:02:05.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-22T09:36:11.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/pearson_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics",
+      "statistical testing",
+      "test"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/pearson_operator"
+    },
+    "version": "0.10.1",
     "authors": [
       "tercen"
     ],
@@ -3739,6 +4361,50 @@
     "path": ""
   },
   {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the contribution of a variable for a Random Forest classification.",
+    "name": "Random Forest Importance",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-01-16T13:42:36.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-26T15:51:21.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/rfImp_operator"
+      }
+    ],
+    "tags": [
+      "multivariate analysis"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/rfImp_operator"
+    },
+    "version": "1.9.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
     "kind": "ShinyOperator",
     "id": "",
     "isDeleted": false,
@@ -3878,6 +4544,50 @@
     "path": ""
   },
   {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Subtracts the Mean and divides by the Standard Deviation of a data set. Also called autoscaling or z-transformation.",
+    "name": "Scale",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2017-11-17T11:57:56.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-26T15:54:04.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/scale_operator"
+      }
+    ],
+    "tags": [
+      "simple statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/scale_operator"
+    },
+    "version": "0.10.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
+  },
+  {
     "kind": "ShinyOperator",
     "id": "",
     "isDeleted": false,
@@ -3921,6 +4631,50 @@
     "longDescription": "",
     "path": "",
     "isViewOnly": true
+  },
+  {
+    "kind": "ROperator",
+    "id": "",
+    "isDeleted": false,
+    "rev": "",
+    "description": "Calculates the Square Root of the variance from the Mean of a data set.",
+    "name": "Standard Deviation",
+    "createdBy": "",
+    "acl": {
+      "kind": "Acl",
+      "owner": "",
+      "aces": []
+    },
+    "createdDate": {
+      "kind": "Date",
+      "value": "2018-04-29T11:02:11.000Z"
+    },
+    "lastModifiedDate": {
+      "kind": "Date",
+      "value": "2021-07-22T10:14:54.000Z"
+    },
+    "urls": [
+      {
+        "kind": "Url",
+        "uri": "https://github.com/tercen/sd_operator"
+      }
+    ],
+    "tags": [
+      "basic statistics"
+    ],
+    "meta": [],
+    "url": {
+      "kind": "Url",
+      "uri": "https://github.com/tercen/sd_operator"
+    },
+    "version": "0.9.1",
+    "authors": [
+      "tercen"
+    ],
+    "isPublic": true,
+    "properties": [],
+    "longDescription": "",
+    "path": ""
   },
   {
     "kind": "ROperator",
